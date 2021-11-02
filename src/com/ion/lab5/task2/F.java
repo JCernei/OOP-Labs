@@ -1,10 +1,10 @@
-package com.ion.lab5.task1;
+package com.ion.lab5.task2;
 
 public class F extends E {
-    public String f;
+    protected String f;
 
-    public F(String s) {
-        super(s);
+    public F(String s, X x) {
+        super(s, x);
         this.f = s;
     }
 
