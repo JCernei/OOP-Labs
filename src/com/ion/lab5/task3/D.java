@@ -1,7 +1,8 @@
-package com.ion.lab5.task2;
+package com.ion.lab5.task3;
 
 public class D extends C {
     protected String d;
+    protected X x = new X("ddd");
 
     public D(String s, X x) {
         super(s, x);

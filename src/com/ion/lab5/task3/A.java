@@ -1,8 +1,8 @@
-package com.ion.lab5.task2;
+package com.ion.lab5.task3;
 
 public class A {
     protected String a;
-    protected X x;
+    protected X x = new X("xxx");
 
     public A(String s, X x) {
         this.a = s;

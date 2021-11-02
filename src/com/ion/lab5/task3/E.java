@@ -1,4 +1,4 @@
-package com.ion.lab5.task2;
+package com.ion.lab5.task3;
 
 public class E extends D {
     protected String e;
